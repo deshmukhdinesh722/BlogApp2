@@ -42,10 +42,7 @@ function UpdateBlog() {
 
    
     const updatepost=async()=>{
-        if(blogs.title==='' || blogs.discription==='' || blogs.content==='' || blogs.thumbnail==='')
-        {
-            return alert('All feilds are required')
-        }
+      
 uploadImage()
     }
     useEffect(() => {
